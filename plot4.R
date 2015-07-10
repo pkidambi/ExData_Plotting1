@@ -31,8 +31,8 @@ plot(mydata4$date_time, mydata3$Global_active_power, type = "l", ylab = "Global
 # plot voltage vs date_time in grid 2
 plot(mydata4$date_time, mydata3$Voltage, type = "l", ylab = "Voltage", xlab = "datetime")
 # plot of sub meter 1,2 and 3 vs date_time in grid 3
-plot(mydata4$date_time, mydata3$Sub_metering_1,col="black", type = "l", ylab = "Energy 
-     sub metering", xlab = "")
+plot(mydata4$date_time, mydata3$Sub_metering_1,col="black", type = "l", 
+     ylab = "Energy sub metering", xlab = "") 
 legend("topright", lty = 1, xjust = 0.5, yjust = 0.5, bty = "n", 
        col = c("black","red","blue"), legend = c("Sub_metering_1", "Sub_metering_2", 
                                                  "Sub_metering_3"), cex=0.5)
